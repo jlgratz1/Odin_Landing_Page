@@ -149,7 +149,6 @@ button {
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
-    margin-top: auto;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -193,4 +192,17 @@ button {
 
 .dropdown:hover > .dropdown-content  {
     display: block;
+}
+
+.construction {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.footer.sign-up {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
